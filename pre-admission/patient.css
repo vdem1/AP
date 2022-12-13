@@ -1,0 +1,22 @@
+.ligne{
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    text-align: center;
+    height: 4vh;
+    width: 100%;
+}
+
+.espace {
+    width: 28.5%;
+}
+
+.espace2{
+    width: 64.25%;
+}
+
+.date{
+    text-align: center;
+}
