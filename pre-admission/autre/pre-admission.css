@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    overflow: hidden;
+}
+
+.test {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin : auto;
+    width: 75vh;
+    height: 50vh;
+    justify-content:space-between;
+}
+
+.DH{
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    height: 4vh;
+    width: 100%;
+    margin-top: -50px;
+}
+
+input{
+    height: 4vh;
+    width:100%;
+}
+
+.horaire {
+    width: 33vh;
+    text-align: center;
+}
+
+.date {
+    width: 33vh;
+    text-align: center;
+}
+
+.date2{
+    text-align: center;
+    border-radius: 5px;
+}
+
+.horaire2{
+    text-align: center;
+    border-radius: 5px;
+}
