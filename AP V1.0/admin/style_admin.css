@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #f9f9f9;
+  font-family: "TitlingGothicFB-NormalMedium","Arial Black",Arial,sans-serif;
+  
+}
+
+.header {
+  overflow: hidden;
+  font-weight: 600;
+  background-color: 	#fff;
+  padding: 20px 10px;
+  position: sticky;
+  top: 0;
+  height: 100%;
+  border-bottom: 2px solid #E2DBFF;
+  z-index: 2;
+}
+
+/* <a> du header */
+.header a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 12px;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header .active {
+  border-bottom: 2px solid #3246b4;
+}
+
+
+/* Hover sur le header */
+.header a:hover {
+  color: #41505a;
+  transition: 0.1s;
+}
+
+/* Header partie droite */
+.header-right {
+  float: right;
+  padding-right: 5%;
+  display: flex;
+}
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+.main {
+  width: 1190px;
+  position: relative;
+  display: inline-block;
+  color: #41505a;
+  margin-left: 5%;
+  box-sizing: border-box;
+}
+  
+/*-----------------------------Tableau-----------------------------*/
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+
+
+
+

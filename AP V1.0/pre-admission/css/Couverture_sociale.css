@@ -1,0 +1,27 @@
+select{
+    text-align: center;
+    height: 4vh;
+    width: 100%;
+}
+
+input{
+    height: 4vh;
+}
+
+.boul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.assure {
+    width: 33vh;
+    text-align: center;
+}
+
+.ALD {
+    width: 33vh;
+    text-align: center;
+}
+.indispo{
+    display: none;
+}

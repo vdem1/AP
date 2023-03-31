@@ -1,0 +1,8 @@
+.uploads{
+    display: flex;
+    justify-content: space-between;
+}
+
+.doc {
+    width: 33vh;
+}

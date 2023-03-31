@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    overflow: hidden;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin : auto;
+    width: 75vh;
+    height: 50vh;
+    justify-content:space-between;
+}
+
+input{
+    height: 4vh;
+    width:100%;
+}
+
+.test {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ligne{
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    text-align: center;
+    height: 4vh;
+    width: 100%;
+}
+
+.espace {
+    width: 28.5%;
+}
+
+.espace2{
+    width: 64.25%;
+}
+
+.date{
+    text-align: center;
+}
