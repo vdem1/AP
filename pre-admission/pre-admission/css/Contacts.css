@@ -1,0 +1,13 @@
+.ligne{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nom{
+    width: 33vh;
+    text-align: center;
+}
+.prenom{
+    width: 33vh;
+    text-align: center;
+}

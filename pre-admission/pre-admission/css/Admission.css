@@ -1,0 +1,35 @@
+.DH{
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    height: 4vh;
+    width: 100%;
+    margin-top: -50px;
+}
+
+
+.horaire {
+    width: 33vh;
+    text-align: center;
+}
+
+.date {
+    width: 33vh;
+    text-align: center;
+}
+
+.date2{
+    text-align: center;
+    border-radius: 5px;
+}
+
+.horaire2{
+    text-align: center;
+    border-radius: 5px;
+}
+
+.indispo{
+    display: none;
+}
